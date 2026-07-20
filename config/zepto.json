@@ -1,0 +1,63 @@
+{
+    "base_url": "https://bff-gateway.zepto.com",
+    "search_endpoint": "/user-search-service/api/v3/search",
+  
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+  
+      "app_sub_platform": "WEB",
+      "app_version": "16.16.0",
+      "appversion": "16.16.0",
+  
+      "platform": "WEB",
+      "tenant": "ZEPTO",
+      "source": "DIRECT",
+  
+      "device_id": "bd8df0c0-ba52-4dc6-950e-5d6a35e8e59a",
+      "deviceid": "bd8df0c0-ba52-4dc6-950e-5d6a35e8e59a",
+  
+      "session_id": "9e45e58e-730f-492a-8251-afe24e6324bd",
+      "sessionid": "9e45e58e-730f-492a-8251-afe24e6324bd",
+  
+      "request_id": "96e02c9a-db37-48cf-bc5c-ba27159bf705",
+      "requestid": "96e02c9a-db37-48cf-bc5c-ba27159bf705",
+  
+      "request-signature": "4f47adccc8c44ca9d6f34575943cc92817ecc0181d9a5679a8bda855a10fefc0",
+  
+      "store_id": "ed887f36-42af-4fcb-92b8-e626ff12058b",
+      "storeid": "ed887f36-42af-4fcb-92b8-e626ff12058b",
+      "store_ids": "ed887f36-42af-4fcb-92b8-e626ff12058b,e531dd78-694e-4025-afdb-76adec0f6d48",
+  
+      "marketplace_type": "SUPER_SAVER",
+  
+      "store_etas": "{\"ed887f36-42af-4fcb-92b8-e626ff12058b\":-1,\"e531dd78-694e-4025-afdb-76adec0f6d48\":-1}",
+  
+      "auth_from_cookie": "true",
+      "auth_revamp_flow": "v2",
+  
+      "x-csrf-secret": "Ve5Rh5_rKzg",
+      "x-xsrf-token": "KRwyZ5qGRqbs6O_TMRqf_:pWcBagXg3zpzCT_hn3l6zbPVSbA.ugvdR3BKY9aoP8AfFQwG7Rsg5N5A15JGaGHbYE8phaE",
+      "x-timezone": "07c580c0467c70d12c10f0a9ec1c4d34e65f7b4389a53ab8b43fdfaed8612ef0",
+      "x-widget-id": "019f0925-0b55-7826-873c-24f0e9704be0",
+      "x-without-bearer": "true",
+  
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+  
+    "cookies": {
+      "_gcl_au": "1.1.1495605175.1784483127",
+      "_fbp": "fb.1.1784483129060.56526437504179205",
+      "_ga": "GA1.1.1397935516.1784483130",
+      "_ga_52LKG2B3L1": "GS2.1.s1784483130$o1$g0$t1784483148$j42$l0$h1198857399",
+      "aws-waf-token": "99ef9959-7e35-41d5-a312-a2769f02d0cc:HgoAY7V8vWUDAAAA:yGDOqkG6VRr0oARD9d3Anj8eInjqGohldbcTLHKyyDLtEQ0nQsgKVLwiaOQvfjvDdiMfEnCZMBPqu2ZCY8wol1skegdKvZouRQQy1Z4t5PXGgQA8Xd6qC/lhNC8FyIbkQzZxPtyZynFC2JLuE0a82cqgLTjsZxEVmtqa7Z7hBFOio+5T5Wag1T8SYa1kLHPDV6BbFIzpvMwcMYAdHfscp0+oLqRA1AyRKsW0xH+y2s8kwYSnuvzXoancda9MvvUgghSIPxrhTFCciTANW/ovpHd5UMK8Bd4LWRWO97ppSiGLm5MfB0mXwAeqsw1dCkI="
+    },
+  
+    "body_template": {
+      "query": "",
+      "pageNumber": 0,
+      "intentId": "0fed8a51-5258-4ce4-ab43-a7c1bea3bef2",
+      "mode": "AUTOSUGGEST",
+      "userSessionId": "9e45e58e-730f-492a-8251-afe24e6324bd"
+    }
+  }

@@ -1,0 +1,56 @@
+{
+    "base_url": "https://instamart.in",
+    "search_endpoint": "/api/instamart/search/v2",
+  
+    "query_params": {
+      "offset": 0,
+      "ageConsent": false,
+      "layoutId": 4987,
+      "voiceSearchTrackingId": "",
+      "storeId": "1404789",
+      "primaryStoreId": "1404789",
+      "secondaryStoreId": ""
+    },
+  
+    "headers": {
+      "accept": "*/*",
+      "content-type": "application/json",
+  
+      "matcher": "fbeab8efbbfab89bcdfb9d7",
+  
+      "x-build-version": "2.357.0",
+      "x-device-id": "ad5104a5-f109-4b62-9676-906518f0e443",
+  
+      "origin": "https://instamart.in",
+      "referer": "https://instamart.in/search?query=plant+protein",
+  
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+  
+    "cookies": {
+      "deviceId": "s:ad5104a5-f109-4b62-9676-906518f0e443.l6MncbWALLJzAg7c4lTDlY8IQ682JkCDwn5MOj9XmYk",
+      "tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODQ0ODY5ODEsImlhdCI6MTc4NDQ4MzM4MSwic2Vzc2lvbl9kYXRhIjoiamxhRFB1Zkc4ZHM1NVRJUk5OM2pQQ1p3U3JxNjM0TzZEY2R6bGoxTzVIZXdVMVNLNjRLNnMvOFBCZGFydkh5ZUNBSE9xNXhmYUM1WXJsMGRFVG5BZkNlZDJTK3JWMWd4T2pqRUE2NEEwOGJ6Zzk1ME12M3p6aEltUnAxbzArc1hhTUR6K21QY0hYdjRSSFNyR0xKaWczOGYwTHpNblU0VmxSUkJlSTZNbncyZitZdVpmZVpwSzEvOVZXTHZvV0pjTCs3T1lWU1RiKzRyazljcnpsRWFYdz09Iiwic2lkIjoic2tuZDg0Mjk4YzQtZTY3ZS00NDNiLTk4ZGQtZWJmZDMzZWUzIiwic3ViIjoiYWFlNWZmODgtZmUzMy00MjU4LTkxZjctYWJkOTQ2OGFjZTFkIiwidXNlcl9pZCI6IjAifQ.F0NQFCm3-mDGmEUABWHZBxwO79Hix-LHH2UFXbGnPQ0",
+      "sid": "s:sknd84298c4-e67e-443b-98dd-ebfd33ee3.ZDOUowqI4tafF2mX0uzu8Ia2XEdRMRuO7zGcZIoCS6E",
+      "versionCode": "1200",
+      "platform": "web",
+      "subplatform": "dweb",
+      "statusBarHeight": "0",
+      "bottomOffset": "0",
+      "genieTrackOn": "false",
+      "ally-on": "false",
+      "isNative": "false",
+      "strId": "",
+      "openIMHP": "false",
+      "aws-waf-token": "99ef9959-7e35-41d5-a312-a2769f02d0cc:HgoAhfR7vv9aAAAA:xdIYTHoLkAY/L7qr8arFEOXHmVd+8mW3F4EniohL78HQ5OPMlzWnDLeAb+uarcZTohCqgxukWlKM1Mv4r7dc6uV//CaIbcTws95ktBQKxGDcOsQaaAIDomIuy9YvL9lcJ7x6l9u87Kl/4vi7R27/fxD9ej4oR8dGCoNMU1q67j7OtKGcRTz+aECzV0wkOu77sSqCGzIo5MQZuYl1w+KXMsi6rfeb6Rt0ldlKHsGol6dqFyNdOwmhGYk9D7N4DWGk78g5mX20rvecUqMzSzh5HX57PzSDRDiHz4sfvy0udMNAVQx+Nj1RiSNWW3H7qc7yAo0=",
+      "userLocation": "{\"lat\":17.391651803964244,\"lng\":78.34452951167013,\"address\":\"Kokapet Main Road, Kokapet, Hyderabad, Telangana 500075, India\",\"id\":\"\",\"annotation\":\"Kokapet Main Road, Kokapet, Hyderabad, Telangana 500075, India\",\"name\":\"\"}"
+    },
+  
+    "body_template": {
+      "facets": [],
+      "sortAttribute": "",
+      "query": "",
+      "search_results_offset": "0",
+      "page_type": "INSTAMART_AUTO_SUGGEST_PAGE",
+      "is_pre_search_tag": false
+    }
+  }

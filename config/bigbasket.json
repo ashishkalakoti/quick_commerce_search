@@ -1,0 +1,98 @@
+{
+    "base_url": "https://www.bigbasket.com",
+    "search_endpoint": "/listing-svc/v2/products",
+  
+    "query_params": {
+      "type": "ps",
+      "slug": "",
+      "page": 1,
+      "bucket_id": 29
+    },
+  
+    "headers": {
+      "accept": "*/*",
+      "content-type": "application/json",
+  
+      "common-client-static-version": "101",
+  
+      "osmos-enabled": "true",
+  
+      "x-channel": "BB-WEB",
+      "x-entry-context": "bbnow",
+      "x-entry-context-id": "10",
+      "x-integrated-fc-door-visible": "false",
+      "x-tracker": "7076d7cc-6836-4d38-b4cd-543c5c140821",
+  
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    },
+  
+    "cookies": {
+      "_bb_locSrc": "default",
+      "x-channel": "web",
+  
+      "_bb_aid": "MjkxMzA4NDUzMA==",
+      "_bb_cid": "1",
+      "_bb_vid": "MTM0OTE3MTUyNTgyMTIzMTg1NA==",
+  
+      "_bb_nhid": "7427",
+      "_bb_dsid": "7427",
+      "_bb_dsevid": "7427",
+  
+      "_bb_bhid": "",
+      "_bb_loid": "",
+  
+      "csrftoken": "EokPEM0bNsus8LSBP8hOMTY29MlgKAsEUj3U0oW3NaDDA9iV1exPY4zInENTKvnr",
+  
+      "isintegratedsa": "true",
+  
+      "jentrycontextid": "10",
+      "xentrycontextid": "10",
+      "xentrycontext": "bbnow",
+  
+      "_bb_bb2.0": "1",
+      "is_global": "1",
+  
+      "_bb_addressinfo": "",
+      "_bb_pin_code": "",
+  
+      "_bb_sa_ids": "19224",
+  
+      "_is_tobacco_enabled": "1",
+      "_is_bb1.0_supported": "0",
+  
+      "_bb_cda_sa_info": "djIuY2RhX3NhLjEwLjE5MjI0",
+  
+      "is_integrated_sa": "1",
+      "is_subscribe_sa": "0",
+  
+      "bb2_enabled": "true",
+  
+      "ts": "2026-07-19 23:31:31.757",
+  
+      "csurftoken": "kEAVAQ.MTM0OTE3MTUyNTgyMTIzMTg1NA==.1784484091720.Qlegwebrj5v1olfte1zavlQFLbuip2/pX0s8yhYin0A=",
+  
+      "bigbasket.com": "b521d701-1984-44ff-b1b0-e2464401d89c",
+  
+      "_gcl_au": "1.1.767517366.1784484092",
+      "_gcl_gs": "2.1.k1$i1784484090$u160754478",
+  
+      "jarvis-id": "9d118f6f-6e62-4bb5-b997-d001fc4e7a1e",
+  
+      "_gid": "GA1.2.1766168965.1784484093",
+  
+      "_gac_UA-27455376-1": "1.1784484093.Cj0KCQjw6_HSBhCpARIsANvVltZtRLJDlFCyLT7nmZNUSefcsMoqLRPhlj67EuEBFDSyQmJJt4AlclAaAqp5EALw_wcB",
+  
+      "_gat_UA-27455376-1": "1",
+  
+      "_gcl_aw": "GCL.1784484093.Cj0KCQjw6_HSBhCpARIsANvVltZtRLJDlFCyLT7nmZNUSefcsMoqLRPhlj67EuEBFDSyQmJJt4AlclAaAqp5EALw_wcB",
+  
+      "_ga": "GA1.1.1243175526.1784484093",
+  
+      "_ga_FRRYG5VKHX": "GS2.1.s1784484092$o1$g0$t1784484092$j60$l0$h0",
+  
+      "adb": "0",
+      "ufi": "1"
+    },
+  
+    "body_template": {}
+  }
