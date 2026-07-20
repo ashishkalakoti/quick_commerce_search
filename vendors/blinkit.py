@@ -37,14 +37,7 @@ class BlinkitClient(VendorClient):
             if not isinstance(data, dict) or "response" not in data:
                 raise Exception("Invalid Blinkit response format")
         except Exception as e:
-            import json
-            import os
-            mock_file = os.path.join(os.path.dirname(__file__), "blinkit_response.json")
-            if os.path.exists(mock_file):
-                with open(mock_file, encoding="utf-8") as f:
-                    data = json.load(f)
-            else:
-                raise e
+            raise e
 
         return self._parse(data)
 

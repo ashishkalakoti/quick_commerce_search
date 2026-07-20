@@ -38,14 +38,7 @@ class ZeptoClient(VendorClient):
             if not isinstance(data, dict) or "layout" not in data:
                 raise Exception("Invalid Zepto response format")
         except Exception as e:
-            import json
-            import os
-            mock_file = os.path.join(os.path.dirname(__file__), "zepto_response.json")
-            if os.path.exists(mock_file):
-                with open(mock_file, encoding="utf-8") as f:
-                    data = json.load(f)
-            else:
-                raise e
+            raise e
 
         return self._parse(data)
 
@@ -72,7 +65,16 @@ class ZeptoClient(VendorClient):
             for item in items:
 
                 #
-                # Product carousel widgets
+                # New API structure: product data under "productResponse"
+                #
+                if "productResponse" in item:
+                    products.extend(
+                        self._parse_products([item["productResponse"]])
+                    )
+                    continue
+
+                #
+                # Old structure: product carousel widgets
                 #
                 if "data" in item and "product" in item["data"]:
                     products.extend(
@@ -81,7 +83,7 @@ class ZeptoClient(VendorClient):
                     continue
 
                 #
-                # Regular product grids
+                # Old structure: regular product grids
                 #
                 if "product" in item:
                     products.extend(
@@ -90,7 +92,7 @@ class ZeptoClient(VendorClient):
                     continue
 
                 #
-                # Some widgets contain another items[]
+                # Old structure: nested items[]
                 #
                 nested = item.get("items", [])
 
